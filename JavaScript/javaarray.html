@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let car=["Maruthi","TATA","swift","KIA"];
+    document.writeln(car[0]);
+    document.writeln(car);
+    car.push("Toyota");
+    document.write(car);
+    car.pop();
+    document.writeln(car+"<br>");
+    delete car[2];
+    document.writeln(car);
+    car.splice(1,0,"orange");
+    console.log(car);
+    car.splice(2,1,"green");
+    console.log(car);
+    let c =car.slice(0,3);
+    console.log(c);
+
+   </script> 
+</body>
+</html>

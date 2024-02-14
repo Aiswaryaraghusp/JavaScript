@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="number" id="ev" placeholder="Enter limit" required>
+   <button onclick="fib()">Click</button>
+<script>
+    function fib()
+    {  
+        let n=document.getElementById("ev").value;
+       let a=0;
+       let b=1,c;
+       let i=0;
+       while(i<n)
+       {
+        document.write(a);
+        c=a+b;
+        a=b;
+        b=c;
+        i=i+1;
+       }
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+        class set_employee{
+            employee(){
+            let e_name="Arnav";
+            let age=24;
+            let email="A@gmail.com";
+            let address="Banglore";
+            document.write("Employee Name:"+e_name+"<br>");
+            document.write("Age:"+age+"<br>");
+            document.write("Email:"+email+"<br>");
+            document.write("Address"+address+"<br>");
+            }
+
+
+        }
+        class get_name extends set_employee
+        {
+            display_emp_details()
+            {
+       document.write("Employee details"+"<br>");
+            }
+        }
+        let obj=new get_name();
+        obj.display_emp_details(); 
+        obj.employee();
+
+// class employee{
+
+//         constructor()
+//         {
+//             let e_name;
+//             let age;
+//             let email;
+//             let address;
+
+//         }
+//         get_employee()
+//         {
+//             return this.e_name,this.age,this.email,this.address;
+//         }
+//         set_employee(e_name,age,email,address)
+//         {
+//             this.e_name=e_name;
+//             this.age=age;
+//             this.email=email;
+//             this.address=address;
+
+//         }
+        
+//     }
+//     var emp=new employee();
+//     emp.set_employee("Manu",3,"a@gmail.com","uu");
+   
+    // document.write(emp.get_employee());
+
+    </script>
+</body>
+</html>
